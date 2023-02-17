@@ -1,8 +1,14 @@
-# AREP Laboratorio 3
+# AREP Laboratorio 4
 
 En este taller usted debe explorar la arquitectura del microframework WEB denominado sparkweb. Este micro framework permite construir aplicaciones web de manera simple usando funciones lambda.
 
 Esta app permite leer archivos estaticos css, html, js y jpg.
+
+## Probar Primera parte
+
+java -cp ./target/classes edu.escuelaing.arem.ASE.app.webapps.FirstApp edu.escuelaing.arem.ASE.app.controller.Hel
+loController
+
 
 ## Iniciando
 
