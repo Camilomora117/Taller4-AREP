@@ -13,6 +13,12 @@ public class MySpringBoot {
     private ArrayList<String> classes;
 
 
+    /**
+     * Metodo que lee los directorios y encuentra los archivos java que tengan la etiqueta @Component
+     * @param files Arreglo de rutas de los archivos con la etiqueta @Component
+     * @param path path donde debe buscar
+     * @return Arreglo con las rutas de los archivos con la etiqueta @Component
+     */
     public ArrayList<String> getClassComponent(ArrayList<String> files, String path) {
         Path filePath = Paths.get(path);
         try {

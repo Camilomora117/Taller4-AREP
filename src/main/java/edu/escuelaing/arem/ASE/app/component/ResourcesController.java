@@ -36,7 +36,6 @@ public class ResourcesController {
         return  getResponseImg();
     }
 
-
     public static String getHeader() {
         return "HTTP/1.1 200 \r\n" +
                 "Content-Type: application/json \r\n" +

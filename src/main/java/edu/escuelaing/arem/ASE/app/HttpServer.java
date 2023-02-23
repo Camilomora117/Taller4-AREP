@@ -110,6 +110,10 @@ public class HttpServer {
         return _instance;
     }
 
+    /**
+     * Retorn outoutStream
+     * @return OutputStream
+     */
     public OutputStream getOutputStream() {
         return this.outputStream;
     }
